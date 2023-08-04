@@ -17,18 +17,22 @@ body {
 
 .bold {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
 .semi-bold {
   font-weight: 600;
   font-size: 16px;
+  /* color: #f5aa39; */
+  /* color: tomato; */
+  color: #116d6e;
 }
 
 .semi-bold2 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
+  color: rgba(255, 90, 71, 0.9);
 }
 
 .resume {
@@ -102,6 +106,7 @@ body {
   margin-right: 15px;
   font-size: 16px;
   position: relative;
+  cursor: pointer;
 }
 
 .resume .icon i {
@@ -172,7 +177,7 @@ body {
 .resume .resume_right ul li .date {
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .resume .resume_right ul li .info {
